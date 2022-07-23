@@ -69,9 +69,15 @@ img {
     background-color: var(--background-color-accent);
     color: var(--color-accent-two);
     text-align: center;
-    /* height: 600px; */
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.hero-img {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(/images/hero-img.jpg);
 }
 
 .features {
@@ -93,6 +99,20 @@ img {
 
 .skills-item {
     width: 270px;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+
+    background-color: var(--background-color-light-greу);
+    border-radius: 4px;
 }
 
 .article-skills {
@@ -143,6 +163,11 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
+/* .article-company {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .article-name {
     font-weight: 500;
@@ -261,6 +286,32 @@ img {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.envelope-icon {
+    fill: var(--color-accent-three);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon-smartphone {
+    fill: var(--color-accent-three);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.envelope-icon:hover {
+    fill: var(--color-accent-four);
+}
+
+.icon-smartphone:hover {
+    fill: var(--color-accent-four);
+}
+
+.item-link {
+    display: flex;
+    align-items: center;
+
 }
 
 .web, .web-footer  {
